@@ -12,8 +12,7 @@
     "webpack-dev-server": "^4.13.1"
   },
   "scripts": {
-    "start": "webpack serve --port 3000 --client-web-socket-url ws://localhost:3001/ws",
-    "forward": "forward-tcp -p 3001 -s localhost:3000"
+    "start": "webpack serve --client-web-socket-url ws://localhost:8080/path/ws"
   },
   "dependencies": {
     "react": "^18.2.0",
